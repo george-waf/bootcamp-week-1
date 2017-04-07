@@ -1,6 +1,6 @@
 class BinarySearch(list):
-    def __init__( self,a, b):
-        for i in range(1, a+1):
+    def __init__( a, b):
+        for i in range(1, a):
             self.append(i * b)
             self.length = len(self)
 
